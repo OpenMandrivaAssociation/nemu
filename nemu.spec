@@ -13,6 +13,7 @@ BuildRequires:	graphviz-devel
 BuildRequires:	cmake
 BuildRequires:	gettext-devel
 BuildRequires:	ncurses-devel
+BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(libusb-1.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(udev)
