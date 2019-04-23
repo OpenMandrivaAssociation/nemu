@@ -9,7 +9,7 @@ Group:          Monitoring
 Url:            https://lib.void.so/nemu/ 
 Source0:	https://bitbucket.org/PascalRD/nemu/get/v%{version}.tar.gz
 BuildRequires:  pkgconfig(spice-protocol)
-BuildRequires:	graphviz
+BuildRequires:	graphviz-devel
 BuildRequires:	cmake
 BuildRequires:	gettext-devel
 BuildRequires:	ncurses-devel
