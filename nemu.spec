@@ -12,6 +12,7 @@ BuildRequires:  pkgconfig(spice-protocol)
 BuildRequires:	graphviz
 BuildRequires:	cmake
 BuildRequires:	gettext-devel
+BuildRequires:	ncurses-devel
 BuildRequires:	pkgconfig(libusb-1.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 
