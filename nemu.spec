@@ -11,6 +11,7 @@ Source0:	https://bitbucket.org/PascalRD/nemu/get/v%{version}.tar.gz
 BuildRequires:  pkgconfig(spice-protocol)
 BuildRequires:	graphviz
 BuildRequires:	cmake
+BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(libusb-1.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 
