@@ -16,6 +16,8 @@ BuildRequires:	ncurses-devel
 BuildRequires:	pkgconfig(libusb-1.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(udev)
+BuildRequires:  pkgconfig(libarchive)
+Requires:	qemu
 
 
 %description
