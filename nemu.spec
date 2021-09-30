@@ -2,12 +2,13 @@
 
 Summary:        Ncurses interface for QEMU
 Name:           nemu
-Version:        2.2.0
+Version:        3.0.0
 Release:        1
 License:        GPLv2+
 Group:          Monitoring
 Url:            https://lib.void.so/nemu/ 
-Source0:	https://bitbucket.org/PascalRD/nemu/get/v%{version}.tar.gz
+Source0:        https://github.com/nemuTUI/nemu/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
+#Source0:	https://bitbucket.org/PascalRD/nemu/get/v%{version}.tar.gz
 BuildRequires:  pkgconfig(spice-protocol)
 BuildRequires:	graphviz-devel
 BuildRequires:	cmake
@@ -25,7 +26,7 @@ Requires:	qemu
 ncurses interface for QEMU
 
 %prep
-%autosetup -n PascalRD-%{name}-026bc23a0ba7
+%autosetup -n %{name}-%{version}
 
 %build
 %cmake -DNM_WITH_SPICE=ON -DNM_WITH_OVF_SUPPORT=ON -DNM_WITH_NETWORK_MAP=ON
