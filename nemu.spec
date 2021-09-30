@@ -45,3 +45,6 @@ ncurses interface for QEMU
 %{_datadir}/%{name}/scripts/setup_nemu_nonroot.sh
 %{_datadir}/%{name}/scripts/upgrade_db.sh
 %{_datadir}/%{name}/templates/config/nemu.cfg.sample
+%{_datadir}/%{name}/scripts/nemu.bash
+%{_datadir}/bash-completion/completions/nemu
+%{_mandir}/man1/nemu.1.zst
