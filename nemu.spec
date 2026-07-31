@@ -2,7 +2,7 @@
 
 Summary:        Ncurses interface for QEMU
 Name:           nemu
-Version:        3.0.0
+Version:        3.5.0
 Release:        1
 License:        GPLv2+
 Group:          Monitoring
