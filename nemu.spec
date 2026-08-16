@@ -12,6 +12,7 @@ Source0:        https://github.com/nemuTUI/nemu/archive/refs/tags/v%{version}/%{
 BuildRequires:  pkgconfig(spice-protocol)
 BuildRequires:	pkgconfig(libgvc)
 BuildRequires:	cmake
+BuildRequires:	make
 BuildRequires:	gettext-devel
 BuildRequires:	ncurses-devel
 BuildRequires:	pkgconfig(sqlite3)
