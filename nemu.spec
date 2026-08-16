@@ -31,7 +31,13 @@ ncurses interface for QEMU
 %autosetup -n %{name}-%{version}
 
 %build
-%cmake -DNM_WITH_SPICE=ON -DNM_WITH_OVF_SUPPORT=ON -DNM_WITH_NETWORK_MAP=ON
+# NET_IF=TRUE skips NM_NET_IF_FIX, an old glibc/kernel-header workaround
+# that now hides IFF_* and struct ifreq.
+%cmake \
+	-DNM_WITH_SPICE=ON \
+	-DNM_WITH_OVF_SUPPORT=ON \
+	-DNM_WITH_NETWORK_MAP=ON \
+	-DNET_IF=TRUE
 %make_build
 
 %install
