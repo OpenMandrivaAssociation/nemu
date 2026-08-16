@@ -10,7 +10,7 @@ Url:            https://lib.void.so/nemu/
 Source0:        https://github.com/nemuTUI/nemu/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 #Source0:	https://bitbucket.org/PascalRD/nemu/get/v%{version}.tar.gz
 BuildRequires:  pkgconfig(spice-protocol)
-BuildRequires:	graphviz-devel
+BuildRequires:	pkgconfig(libgvc)
 BuildRequires:	cmake
 BuildRequires:	gettext-devel
 BuildRequires:	ncurses-devel
